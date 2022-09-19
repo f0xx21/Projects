@@ -1,0 +1,118 @@
+
+
+body {
+     background-image: url('../images/img3.jpg');
+     background-attachment: fixed;
+    
+
+} 
+.card{
+    margin: auto;
+    max-width: 800px;
+}
+
+
+
+a:link {
+    color: rgb(255, 255, 255);
+  }
+a:visited{
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: tomato;
+}
+
+.zagolovok{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+}
+.zagolovok2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+
+}
+.container{
+    display: grid; 
+    grid-column: auto auto auto ;
+    grid-row: auto auto auto  ;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+     grid-template-areas: "header header header"
+                          "left main right"
+                          "footer footer footer";
+   
+ }
+.header{
+    grid-area: header;
+    background: cornflowerblue;
+    
+}
+.footer{
+    grid-area: footer;
+    background: cyan;
+}
+.main{
+    grid-area: main;
+    background: darkgreen;
+}
+.left{
+    grid-area: left;
+    text-align: left;
+    background: darkslateblue;
+}
+.right{
+    grid-area: right;
+    background: darkslateblue;
+}
+
+
+.grid{
+    padding: 20px;
+    display:grid;
+    /* grid-template-columns: 10% 10% 1fr 1fr 
+    grid-template-rows: 10% 10% 1fr 1fr; */
+    grid-template: 500px 1fr 1fr 1fr / 400px 1fr 1fr 1fr;
+    margin: 10px;
+       
+}
+.grid-item1{
+    display:grid;
+    border: dashed 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    
+    
+}
+
+.grid-item2{
+    display: grid;
+    padding: 20px;
+    border: dashed 4px rgba(0, 44, 190, 0.8);
+    background-color: cadetblue;
+ 
+
+
+}
+.grid-item3{
+    display: flex;
+    background-color: aqua;
+    padding: 20px;
+    border: dashed 4px rgba(0, 0, 0, 0.5);
+}
+
+.grid-item4{
+    display: flex;
+    background-color: rgb(2, 139, 48);
+    border: dashed 4px rgba(5, 1, 230, 0.5);
+}
+
+.grid-item5 {
+    display: grid;
+    object-position: right;
+    vertical-align: top;
+    background-color: cornflowerblue;
+   
+    
+}

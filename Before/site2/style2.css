@@ -1,0 +1,100 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  *,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  :focus,:active{outline: none;}
+  a:focus,a:active{outline: none;}
+  
+  nav,footer,header,aside{display: block;}
+  
+  html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  
+  }
+  input,button,textarea{font-family: inherit;}
+  
+  input::-ms-clear{display: none;}
+  button{cursor:pointer;}
+  a,a:visited{text-decoration:none;}
+  a:hover{text-decoration: none;}
+  ul li{list-style: none;}
+  img{vertical-align: top;}
+  
+  h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+  
+body{
+  padding: 30px;
+  background: url('..//site/images/img2.jpg');
+  color: grey
+  
+}
+
+.list{
+  font-size: 30px;
+}
+.list li:nth-child(1){
+text-decoration: line-through;
+
+
+}
+.list li:nth-child(3){
+
+  font-style: italic;
+}
+
+.list li:nth-child(4){
+
+text-transform: uppercase;
+}
+.text{
+  padding-top: 30px;
+font-size: 25px;
+line-height: 30px;
+}
+
+.list2 li{
+  padding-top: 30px;
+font-size: 30px;
+
+}
+.list2 li:nth-child(1):hover{
+color: red;
+}
+.text::first-line{
+  color: green;
+  font-size: 33px;
+}
+.text2{
+  font-size: 30px;
+  padding-top: 20px;
+}
+.text2::first-letter{
+  color: brown;
+  font-size: 40px;
+}
+.button1{
+ margin-top: 30px;
+  height: 100px;
+  width: 100px;
+  font-size: 20px;
+}
+.button1:hover{
+  font-size: 20px;
+  color: blueviolet;
+  box-shadow: 2px 1px 5px gray;
+
+}
